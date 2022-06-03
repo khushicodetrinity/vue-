@@ -54,6 +54,7 @@ body {
   visibility: visible;
   font-family: "Open Sans", sans-serif;
   color: #666666;
+  z-index: 9999;
   position: relative;
 }
 body[data-rtl=rtl] {
@@ -65,7 +66,7 @@ h1, h2, h3, h4, h5, h6 {
 font-weight: 600;
     font-family: 'Raleway', sans-serif;
   color: #1f2d30;
-  
+
   margin-top: 0;
   line-height: 1.2;
 }
@@ -235,7 +236,7 @@ img {
   --bs-gutter-x: 0;
 }
 
-/*-- 
+/*--
     - Common Classes
 -----------------------------------------*/
 .fix {
@@ -296,7 +297,7 @@ img {
   z-index: -9 !important;
 }
 
-/*-- 
+/*--
     - Input Placeholder
 -----------------------------------------*/
 input:-moz-placeholder, textarea:-moz-placeholder {
@@ -338,7 +339,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   background-color: #ffbe00 !important;
 }
 
-/*-- 
+/*--
     - Tab Content & Pane Fix
 ------------------------------------------*/
 .tab-content {
@@ -359,10 +360,10 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   overflow: visible;
 }
 
-/*-- 
+/*--
     - Main Wrapper
 ------------------------------------------*/
-/*-- 
+/*--
     - Section Title
 ------------------------------------------*/
 .section-title {
@@ -415,7 +416,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   margin-right: 0;
 }
 
-/*-- 
+/*--
     - Button
 ------------------------------------------*/
 .btn {
@@ -488,11 +489,11 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
     top: -6px;
   }
 }
-/*-- 
+/*--
     - Page Banner Section
 ------------------------------------------*/
 .page-banner-section {
-  margin-top: 130px;
+  margin-top: 80px;
   padding: 80px 0 90px;
   background-size: cover;
   background-repeat: no-repeat;
@@ -597,7 +598,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   color: #ffbe00;
 }
 
-/*-- 
+/*--
     - Page Pagination
 ------------------------------------------*/
 .page-pagination {
@@ -1601,7 +1602,7 @@ header.header.is-sticky .header-top {
 /*  03. Hero CSS
 /*----------------------------------------*/
 .hero-section {
-  margin-top: 130px;
+  margin-top: 80px;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .hero-section {
@@ -2525,7 +2526,7 @@ color: #ffffff;
   background-position: center center;
   position: relative;
  z-index: -1;
- 
+
 }
 .funfact-section::before {
   position: absolute;
