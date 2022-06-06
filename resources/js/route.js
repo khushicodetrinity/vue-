@@ -14,6 +14,11 @@ import Cart from './components/Cart'
 import Checkout from './components/Checkout'
 import Blog from './components/Blog'
 import BlogDetail from './components/Blog-detail.vue'
+import BlogLeftSidebar from './components/Blog-left-sidebar.vue'
+import BlogRightSidebar from './components/Blog-right-sidebar.vue'
+import BlogDetailRightSidebar from './components/Blog-detail-right-sidebar.vue'
+import Contact from './components/Contact.vue'
+import Crud from './components/Crud.vue'
 
 const routes = [
     {
@@ -90,6 +95,31 @@ const routes = [
         name : 'BlogDetail',
         path : '/blog-details',
         component : BlogDetail
+    },
+    {
+        name : 'BlogLeftSidebar',
+        path : '/blog-left-sidebar',
+        component : BlogLeftSidebar
+    },
+    {
+        name : 'BlogRightSidebar',
+        path : '/blog-right-sidebar',
+        component : BlogRightSidebar
+    },
+    {
+        name : 'BlogDetailRightSidebar',
+        path : '/blog-details-right-sidebar',
+        component : BlogDetailRightSidebar
+    },
+    {
+        name : 'Contact',
+        path : '/contact',
+        component : Contact
+    },
+    {
+        name : 'Crud',
+        path : '/crud',
+        component : Crud
     },
 ];
 

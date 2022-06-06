@@ -9,7 +9,7 @@
                     <h1>Blog Details</h1>
                     <ul class="page-breadcrumb">
                         <li><router-link to="/">Home</router-link></li>
-                        <li>Blog Details</li>
+                        <li>Blog Details Right Sidebar</li>
                     </ul>
                 </div>
 
@@ -23,7 +23,7 @@
     <div class="container">
         <div class="row">
 
-            <div class="col-lg-8 col-12 order-1 order-lg-2 mb-sm-50 mb-xs-50">
+            <div class="col-lg-8 col-12 order-1 mb-sm-50 mb-xs-50">
                 <div class="row">
 
                     <div class="blog-details col-12">
@@ -83,7 +83,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-4 col-12 order-2 order-lg-1 pr-30 pr-sm-15 pr-xs-15">
+            <div class="col-lg-4 col-12 order-2 pl-30 pl-sm-15 pl-xs-15">
 
                 <div class="sidebar">
                     <h3 class="sidebar-title">Search</h3>
@@ -116,7 +116,7 @@
                     <h3 class="sidebar-title">Popular Post</h3>
 
                     <div class="sidebar-blog">
-                        <a href="blog-details.html" class="image"><img src="assets/images/blog/sidebar-blog-1.jpg" alt=""></a>
+                        <router-link to="blog-details" class="image"><img src="assets/images/blog/sidebar-blog-1.jpg" alt=""></router-link>
                         <div class="content">
                             <h5><router-link to="blog-details">What are Groundworkers and what do they do?</router-link></h5>
                             <span>30 October 2018</span>
@@ -124,7 +124,7 @@
                     </div>
 
                     <div class="sidebar-blog">
-                        <a href="blog-details.html" class="image"><img src="assets/images/blog/sidebar-blog-2.jpg" alt=""></a>
+                        <router-link to="blog-details" class="image"><img src="assets/images/blog/sidebar-blog-2.jpg" alt=""></router-link>
                         <div class="content">
                             <h5><router-link to="blog-details">What's really delaying the £15.4bn mega-project</router-link></h5>
                             <span>30 October 2018</span>
@@ -132,7 +132,7 @@
                     </div>
 
                     <div class="sidebar-blog">
-                        <a href="blog-details.html" class="image"><img src="assets/images/blog/sidebar-blog-3.jpg" alt=""></a>
+                        <router-link to="blog-details" class="image"><img src="assets/images/blog/sidebar-blog-3.jpg" alt=""></router-link>
                         <div class="content">
                             <h5><router-link to="blog-details">How much space does a house wall take up in sq ft?</router-link></h5>
                             <span>30 October 2018</span>
@@ -185,7 +185,7 @@
 
 <script>
 export default {
-    name: 'BlogDetail'
+    name: 'BlogDetailRightSidebar'
 }
 </script>
 
