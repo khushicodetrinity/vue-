@@ -3,6 +3,7 @@
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ContactController;
+use App\Http\Controllers\CrudController;
 
 /*
 |--------------------------------------------------------------------------
@@ -20,3 +21,8 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 });
 
 Route::post('contact',[ContactController::class,'contact']);
+Route::post('user',[CrudController::class,'add_user']);
+Route::get('users',[CrudController::class,'users']);
+Route::get('user/edit/{id}',[CrudController::class,'edit_user']);
+Route::post('user/update',[CrudController::class,'update_user']);
+Route::delete('user/delete/{id}',[CrudController::class,'delete_user']);

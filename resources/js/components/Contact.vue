@@ -122,7 +122,6 @@ export default {
     },
     methods: {
         async getData(){
-            console.log("here");
             await axios.post('http://localhost:8000/api/contact',{
                 name: this.name,
                 email: this.email,
